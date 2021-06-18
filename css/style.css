@@ -36,3 +36,37 @@ nav {
   background-image: url("../img/banner.png");
   height: 235px;
 }
+
+.contact-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #575757;
+}
+
+.contato {
+  display: flex;
+}
+
+form,
+article {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  color: #9b9b9b;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: solid 1px #9b9b9b;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
