@@ -20,41 +20,111 @@
   </header>
   <main class="container">
     <section class="banner"></section>
-    <h2 class="contact-heading">Faça parte do nosso time</h2>
-      <div class="contato">
-        <form action="">
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome">
-
-          <label for="departamentos">Departamentos</label>
-          <select name="departamentos" id="departamentos">
-            <option selected disabled>Selecione um departamento</option>
-            <option value="tecnologia">Tecnologia</option>
-            <option value="design">Design</option>
-            <option value="rh">Recursos Humanos</option>
-          </select>
-
-          <label>Disponibilidade</label>
-          <div class="options">
-
-            <input type="checkbox" name="disponibilidade" id="opcao-integral">
-            <label for="opcao-integral">Integral (8h)</label>
+    <section class="join-us">
+      <h2 class="contact-heading">Faça parte do nosso time</h2>
+        <div class="contato">
+          <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
             
-            <input type="checkbox" name="disponibilidade" id="opcao-meio">
-            <label for="opcao-meio">Meio período (4h)</label>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone">
+
+            <label for="departamentos">Departamentos</label>
+            <select name="departamentos" id="departamentos">
+              <option selected disabled>Selecione um departamento</option>
+              <option value="tecnologia">Tecnologia</option>
+              <option value="design">Design</option>
+              <option value="rh">Recursos Humanos</option>
+            </select>
             
-            <input type="checkbox" name="disponibilidade" id="opcao-freelancer">
-            <label for="opcao-freelancer">Freelancer</label>
-          </div>
-        </form>
-        <article>
-          
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-      </div>
+            <label>Disponibilidade</label>
+            <div class="options">
+
+              <div class="options__input-box">
+                <input type="checkbox" name="disponibilidade" id="opcao-integral">
+                <label for="opcao-integral">Integral (8h)</label>
+              </div>
+              
+              <div class="options__input-box">
+                <input type="checkbox" name="disponibilidade" id="opcao-meio">
+                <label for="opcao-meio">Meio período (4h)</label>
+              </div>
+              
+              <div class="options__input-box">
+                <input type="checkbox" name="disponibilidade" id="opcao-freelancer">
+                <label for="opcao-freelancer">Freelancer</label>
+              </div>
+            </div>
+
+            <label>Qual a melhor forma para entrarmos em contato com você?</label>
+            <div class="options">
+
+              <div class="options__input-box">
+                <input type="radio" name="contato" id="opcao-email">
+                <label for="opcao-email">Email</label>
+              </div>
+              
+              <div class="options__input-box">
+                <input type="radio" name="contato" id="opcao-ligacao">
+                <label for="opcao-ligacao">Ligação</label>
+              </div>
+
+              <div class="options__input-box">
+                <input type="radio" name="contato" id="opcao-whatsapp">
+                <label for="opcao-whatsapp">WhatsApp</label>
+              </div>
+            </div>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+            <div class="curriculo">
+              <label for="curriculo">Currículo</label>
+              <label for="curriculo">upload</label>
+              <input type="file" name="curriculo" id="curriculo">
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+          <article>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+        </div>
       </section>
   </main>
+  <footer class="footer">
+    <div class="container">  
+      <div>
+        <img src="./img/logo-white.png" alt="White Logo">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium temporibus quasi fugit non sint aperiam dicta possimus iusto ea!</p>
+      </div>
+      
+      <div class="categorias">
+        <h3>categorias</h3>
+        <a href="#" class="footer-link">sandálias</a>
+        <a href="#" class="footer-link">botas</a>
+        <a href="#" class="footer-link">tênis</a>
+        <a href="#" class="footer-link">oxford</a>
+        <a href="#" class="footer-link">coturnos</a>
+      </div>
+
+      <div class="institucional">
+        <h3>institucional</h3>
+        <a href="#" class="footer-link">sobre nós</a>
+        <a href="#" class="footer-link">perguntas frequentes</a>
+        <a href="#" class="footer-link">política de privacidade</a>
+        <a href="#" class="footer-link">rastreamento de pedidos</a>
+        <a href="#" class="footer-link">trabalhe conosco</a>
+        <a href="#" class="footer-link">contato</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

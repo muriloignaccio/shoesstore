@@ -37,6 +37,11 @@ nav {
   height: 235px;
 }
 
+.join-us {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
 .contact-heading {
   font-size: 40px;
   font-weight: 600;
@@ -60,13 +65,83 @@ form {
 }
 
 input,
-select {
+select,
+textarea {
   margin-bottom: 15px;
   padding: 5px 10px;
   border: solid 1px #9b9b9b;
 }
 
+textarea {
+  resize: none;
+}
+
 label {
   font-size: 18px;
   margin-bottom: 5px;
+}
+
+.options {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.options label {
+  font-size: 14px;
+}
+
+.options__input-box {
+  flex: 1;
+}
+
+.curriculo {
+  margin-bottom: 10px;
+}
+
+.curriculo input {
+  display: none;
+}
+
+.curriculo label:nth-child(2) {
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 3px 40px;
+  background-color: #c4c4c4;
+}
+
+button[type="submit"] {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 800;
+  background-color: #c2185b;
+  padding: 8px 0;
+}
+
+.footer {
+  background-color: #c2185b;
+  color: #fff;
+  padding: 10px 20px 30px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container div:first-of-type {
+  width: 30%;
+}
+
+.categorias,
+.institucional {
+  display: flex;
+  flex-direction: column;
 }
